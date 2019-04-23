@@ -1,0 +1,155 @@
+@media (min-width: 320px) {
+    .autojack .login__column {
+      -webkit-box-flex: 0;
+      -webkit-flex: 0 0 100%;
+              flex: 0 0 100%;
+      max-width: 100%; }
+    .autojack .login__image {
+      height: 200px; }
+    .autojack .login__content {
+      padding: 25px 20px; } }
+  
+  @media (min-width: 540px) {
+    .autojack .login__column {
+      -webkit-box-flex: 0;
+      -webkit-flex: 0 0 50%;
+              flex: 0 0 50%;
+      max-width: 50%; }
+    .autojack .login__image {
+      height: 100%; } }
+  
+  @media (min-width: 768px) {
+    .autojack .login__content {
+      padding: 75px 48px 40px; } }
+  
+  @media (min-width: 992px) {
+    .autojack .login .modal-lg {
+      width: 814px; } }
+  
+  .modal-backdrop.in {
+    opacity: 0.2; }
+  
+  .autojack .login .modal-content {
+    position: relative;
+    border: none;
+    border-radius: 0;
+    box-shadow: 0px 0px 2.82px 0.18px rgba(0, 0, 0, 0.05), 0px 0px 11.7px 1.3px rgba(0, 0, 0, 0.08); }
+  
+  .autojack .login__close {
+    -webkit-appearance: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 42px;
+    height: 42px;
+    background-image: url(../img/icon_close.png);
+    background-size: 14px;
+    background-position: center center;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border-color: #e0e0e0;
+    border-style: solid;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    font-size: 0;
+    outline: none;
+    z-index: 10; }
+  
+  .autojack .login__row {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+            flex-wrap: wrap; }
+  
+  .autojack .login__image {
+    position: relative;
+    background-size: cover;
+    background-position: top center;
+    background-color: transparent;
+    background-repeat: no-repeat; }
+  
+  .autojack .login__logo {
+    position: absolute;
+    bottom: 12px;
+    left: 36px;
+    width: 190px;
+    height: 39px;
+    background-image: url(../img/logo_white.png);
+    background-size: contain;
+    background-position: center center;
+    background-color: transparent;
+    background-repeat: no-repeat; }
+  
+  .autojack .login__text {
+    margin-bottom: 20px; }
+  
+  .autojack .login__title {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #1f1f1f;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: -0.1px; }
+  
+  .autojack .login__description {
+    margin: 0;
+    color: #7d7d7d;
+    font-size: 12px;
+    font-weight: 400; }
+  
+  .autojack .login__field {
+    margin-top: 22px; }
+    .autojack .login__field:first-child {
+      margin-top: 0; }
+  
+  .autojack .login__label {
+    display: block;
+    margin-bottom: 6px;
+    color: #010305;
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase; }
+  
+  .autojack .login__input {
+    -webkit-appearance: none;
+    display: block;
+    width: 100%;
+    padding: 10px 17px;
+    background-color: transparent;
+    border: 1px solid #cccccc;
+    color: #7d7d7d;
+    outline: none; }
+    .autojack .login__input.error {
+      border-color: #ff0000; }
+  
+  .autojack .login__forgotten {
+    margin-top: 10px;
+    margin-bottom: 23px; }
+  
+  .autojack .login__link {
+    color: black;
+    font-size: 12px;
+    outline: none;
+    text-decoration: underline; }
+  
+  .autojack .login__submit {
+    -webkit-appearance: none;
+    display: block;
+    width: 100%;
+    padding: 10px 17px;
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+    text-transform: uppercase;
+    outline: none; }
+  
+  .autojack .login__signup {
+    margin-top: 16px; }
+  
+  .autojack .login__description {
+    color: #7d7d7d;
+    font-size: 12px; }
+  

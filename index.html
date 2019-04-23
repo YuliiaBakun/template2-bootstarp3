@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Новости</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,600&amp;subset=cyrillic" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+
+<body>
+  <!-- Header -->
+  <div class="autojack">
+    <nav class="navbar">
+      <div class="navbar-header">
+        <button class="navbar-toggle" type="button" aria-expanded="false"><span class="icon-bar"></span><span
+            class="icon-bar"></span><span class="icon-bar"></span></button>
+      </div>
+    </nav>
+  </div>
+  <div class="autojack">
+    <header class="slideout-menu slideout-menu-left" id="slideout">
+      <div class="container">
+        <div class="row">
+          <div class="user">
+            <ul>
+              <li>
+                <form action="#">
+                  <input type="text" placeholder="Поиск...">
+                  <input type="submit" value="">
+                </form>
+              </li>
+              <li><a class="user_city" href="#"><i></i><span>Санкт-Петербург</span></a></li>
+              <li><a class="user_stores" href="#"><i></i><span>Магазины</span></a></li>
+              <li><a class="user_cart" href="#"><i></i><i class="user_cart_counter">10</i><span>Корзина</span></a></li>
+              <li><a class="user_cabinet" href="#" data-toggle="modal" data-target=".login"><i></i><span>Личный
+                    кабинет</span></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="navigation navigation--padding">
+            <div class="navigation_logo">
+              <div class="navigation_logo_image"></div>
+              <p>Одежда с климат контроллем</p>
+            </div>
+            <div class="navigation_links">
+              <ul>
+                <li class="navigation_links_item">
+                  <div class="dropdown">
+                    <button id="dropdown_menu" type="button" data-toggle="dropdown" aria-haspopup="true"
+                      aria-expanded="false"><span>Мужчинам</span><i class="fas fa-angle-down"></i></button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdown_menu">
+                      <li><a href="#">Зимние куртки</a></li>
+                      <li><a href="#">Осенние куртки</a></li>
+                      <li><a href="#">Ветровки</a></li>
+                      <li><a href="#">Толстовки</a></li>
+                      <li><a href="#">Брюки</a></li>
+                      <li><a href="#">Джинсы</a></li>
+                      <li><a href="#">Шапки</a></li>
+                      <li><a href="#">Носки</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="navigation_links_item">
+                  <div class="dropdown">
+                    <button id="dropdown_women" type="button" data-toggle="dropdown" aria-haspopup="true"
+                      aria-expanded="false"><span>Женщинам</span><i class="fas fa-angle-down"></i></button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdown_women">
+                      <li><a href="#">Зимние куртки</a></li>
+                      <li><a href="#">Осенние куртки</a></li>
+                      <li><a href="#">Ветровки</a></li>
+                      <li><a href="#">Толстовки</a></li>
+                      <li><a href="#">Шапки</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="navigation_links_item"><a href="#"><span>Технологии</span></a></li>
+                <li class="navigation_links_item"><a href="#"><span>Распродажа</span></a></li>
+                <li class="navigation_links_item"><a href="#"><span>Партнерам</span></a></li>
+                <li class="navigation_links_item">
+                  <div class="dropdown">
+                    <button id="dropdown_info" type="button" data-toggle="dropdown" aria-haspopup="true"
+                      aria-expanded="false"><span>Информация</span><i class="fas fa-angle-down"></i></button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdown_info">
+                      <li><a href="#">О бренде</a></li>
+                      <li><a href="#">Оплата</a></li>
+                      <li><a href="#">Доставка</a></li>
+                      <li><a href="#">Новости</a></li>
+                      <li><a href="#">Дилерам</a></li>
+                      <li><a href="#">Возврат товара</a></li>
+                      <li><a href="#">Как сделать заказ</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="navigation_links_item"><a href="#"><span>Контакты</span></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+  </div>
+
+  <div class="slideout-panel slideout-panel-left" id="content">
+    <!-- Новости -->
+    <div class="rs-autojack-news">
+      <div class="autojack-news">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12">
+              <h2>Новости</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-12 col-md-4 news-box">
+              <div class="news_item">
+                <a class="news_item_image" style="background-image: url(img/pic_news12.jpeg)" href=""></a>
+                <div class="news_item_text">
+                  <h4><a href="#">Итоги выставки Sport Casual Moscow</a></h4>
+                  <p>С 21 января по 23 января, наша компания принимала участие в выставке Sport Casual Moscow. На этой
+                    выставке мы представили нашим партнерам нашу новую...</p>
+                  <hr>
+                  <div class="news_item_text_footer">
+                    <div class="news_item_text_footer_date"><i class="far fa-calendar-alt"></i><span>1 января
+                        2019</span></div>
+                    <div class="news_item_text_footer_link"><a href="#">Читать далее...</a></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-md-4 news-box">
+              <div class="news_item">
+                <a class="news_item_image" href="#" style="background-image: url(img/pic_news13.jpeg)"></a>
+                <div class="news_item_text">
+                  <h4><a href="#">Приглашаем посетить "International Fashion Trade Show Moscow CPM 2019</a></h4>
+                  <p>Уважаемые партнеры! Компания AutoJack&LimoLady приглашает вас посетить наш стенд на выставке...</p>
+                  <hr>
+                  <div class="news_item_text_footer">
+                    <div class="news_item_text_footer_date"><i class="far fa-calendar-alt"></i><span>31 января
+                        2019</span></div>
+                    <div class="news_item_text_footer_link"><a href="#">Читать далее...</a></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-md-4 news-box">
+              <div class="news_item">
+                <a class="news_item_image" href="#" style="background-image: url(img/pic_news14.jpeg)"></a>
+                <div class="news_item_text">
+                  <h4><a href="#">Компания AutoJack&LimoLady на выставке SPORT CASUAL MOSCOW 2019</a> </h4>
+                  <p>Уважаемые клиенты! Рады сообщить, что сегодня открылась выставка-презентация спортивной,
+                    повседневной...</p>
+                  <hr>
+                  <div class="news_item_text_footer">
+                    <div class="news_item_text_footer_date"><i class="far fa-calendar-alt"></i><span>23 января
+                        2019</span></div>
+                    <div class="news_item_text_footer_link"><a href="#">Читать далее...</a></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-md-4 news-box">
+              <div class="news_item">
+                <a class="news_item_image" href="#" style="background-image: url(img/pic_news15.jpeg)"></a>
+                <div class="news_item_text">
+                  <h4> <a href="#">Продукция компании AutoJack&LimoLady теперь и в Смоленске</a></h4>
+                  <p>Уважаемые клиенты! Рады сообщить, что приобрести верхнюю одежду AutoJack&LimoLady с ситемой...</p>
+                  <hr>
+                  <div class="news_item_text_footer">
+                    <div class="news_item_text_footer_date"><i class="far fa-calendar-alt"></i><span>14 января
+                        2019</span></div>
+                    <div class="news_item_text_footer_link"><a href="#">Читать далее...</a></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-md-4 news-box">
+              <div class="news_item">
+                <a class="news_item_image" href="#" style="background-image: url(img/pic_news16.jpeg)"></a>
+                <div class="news_item_text">
+                  <h4><a href="#">Презентацию коллекций AutoJack&LimoLady ОСЕНЬ-ЗИМА 2019-2020</a></h4>
+                  <p>Добрый день, уважаемые партнеры! Приглашаем Вас посетить презентацию коллекций AutoJack&LimoLady...
+                  </p>
+                  <hr>
+                  <div class="news_item_text_footer">
+                    <div class="news_item_text_footer_date"><i class="far fa-calendar-alt"></i><span>5 декабря
+                        2018</span></div>
+                    <div class="news_item_text_footer_link"><a href="#">Читать далее...</a></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-md-4 news-box">
+              <div class="news_item">
+                <a class="news_item_image" href="#" style="background-image: url(img/pic_news17.jpeg)"></a>
+                <div class="news_item_text">
+                  <h4><a href="#">Магазин "Autojack" победил в конкурсе!</a></h4>
+                  <p>В г. Омск недавно прошел городской конкурс на звание «Лучшее предприятие малого и среднего
+                    бизнеса».</p>
+                  <hr>
+                  <div class="news_item_text_footer">
+                    <div class="news_item_text_footer_date"><i class="far fa-calendar-alt"></i><span>2 октября
+                        2018</span></div>
+                    <div class="news_item_text_footer_link"><a href="#">Читать далее...</a></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-md-4 news-box">
+              <div class="news_item">
+                <a class="news_item_image" href="#" style="background-image: url(img/pic_news18.jpeg)"></a>
+                <div class="news_item_text">
+                  <h4><a href="#">Компания"Autojack" примет участие в выставке Sport Casual Moscow</a></h4>
+                  <p>Уважаемые партнеры! В Москве с 7 по 8 августа состоится выставка Sport Casual Moscow.</p>
+                  <hr>
+                  <div class="news_item_text_footer">
+                    <div class="news_item_text_footer_date"><i class="far fa-calendar-alt"></i><span>2 октября
+                        2018</span></div>
+                    <div class="news_item_text_footer_link"><a href="#">Читать далее...</a></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-md-4 news-box">
+              <div class="news_item">
+                <a class="news_item_image" href="#" style="background-image: url(img/pic_news19.jpeg)"></a>
+                <div class="news_item_text">
+                  <h4><a href="#">Autojack и LimoLady в центре международной моды!</a></h4>
+                  <p>Autojack и LimoLady приглашают на выставку "International Fashion Trade Show Moscow CPM 2018", где
+                    мы представим...</p>
+                  <hr>
+                  <div class="news_item_text_footer">
+                    <div class="news_item_text_footer_date"><i class="far fa-calendar-alt"></i><span>27 июня 2018</span>
+                    </div>
+                    <div class="news_item_text_footer_link"><a href="#">Читать далее...</a></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-md-4 news-box">
+              <div class="news_item">
+                <a class="news_item_image" href="#" style="background-image: url(img/pic_news111.jpeg)"></a>
+                <div class="news_item_text">
+                  <h4><a href="#">Куртки "климат-контроль"&copy; Autojack: ОПЦИИ</a></h4>
+                  <p>В куртках "климат-контроль"&copy; Autojack все продумано для того, чтобы сделать вашу жизнь проще и
+                    удобнее...</p>
+                  <hr>
+                  <div class="news_item_text_footer">
+                    <div class="news_item_text_footer_date"><i class="far fa-calendar-alt"></i><span>2 октября
+                        2018</span></div>
+                    <div class="news_item_text_footer_link"><a href="#">Читать далее...</a></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-xs-12">
+              <ul class="pagination">
+                <li><a href="#">&laquo;</a></li>
+                <li class="active"><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5</a></li>
+                <li><a href="#">&raquo;</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Подписка -->
+    <div class="autojack">
+      <div class="container-fluid mailing">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12">
+              <div class="mailing_text">
+                <h2>Подписка на рассылку</h2>
+                <p>Новости и специальные предложения от Autojack & Limolady</p>
+              </div>
+              <form action="#">
+                <div class="mailing_form mailing_form__input">
+                  <input type="text" placeholder="Введите Ваш E-mail">
+                </div>
+                <div class="mailing_form mailing_form__submit">
+                  <input type="submit" value="Подписаться">
+                </div>
+              </form>
+              <div class="mailing_disclaimer">
+                <p>Нажимая на кнопку «Подписаться», Вы соглашаетесь на обработку персональных данных в соответствии <a
+                    href="#">пользовательским соглашением</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="autojack">
+      <footer>
+        <div class="container advantages">
+          <div class="row">
+            <div class="col-xs-12 col-md-4 advantages_item">
+              <div class="advantages_item_image"><i
+                  class="advantages_item_image_icon advantages_item_image_icon__climate"></i></div>
+              <div class="advantages_item_text">
+                <h3>Climate-Control ®</h3>
+                <p>Сочетание технологий и функциональных материалов поддерживают внутри куртки максимально
+                  комфортабельный микроклимат.</p><a href="#">Инструкция по уходу</a>
+              </div>
+            </div>
+            <div class="col-xs-12 col-md-4 advantages_item">
+              <div class="advantages_item_image"><i
+                  class="advantages_item_image_icon advantages_item_image_icon__maker"></i></div>
+              <div class="advantages_item_text">
+                <h3>От производителя</h3>
+                <p>Только у нас - верхняя одежда AutoJack & LimoLady от производителя - мужская и женская верхняя
+                  одежда, а также толстовки, брюки и аксессуары.</p><a href="#">О компании</a><a href="#">Технологии</a>
+              </div>
+            </div>
+            <div class="col-xs-12 col-md-4 advantages_item">
+              <div class="advantages_item_image"><i
+                  class="advantages_item_image_icon advantages_item_image_icon__service"></i></div>
+              <div class="advantages_item_text">
+                <h3>Сервис</h3>
+                <p>К вашим услугам выгодные цены, гарантия качества, доставка на дом. безопасные способы оплаты, помощь
+                  в подборе модели, которая подойдет именно вам.</p><a href="#">Доставка</a><a href="#">Оплата</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container navigation">
+          <div class="row">
+            <div class="navigation_column navigation_column__w26">
+              <div class="navigation_column_item">
+                <div class="navigation_column_item_title"><img src="img/logo.png" alt="Логотип"></div>
+                <div class="navigation_column_item_text">
+                  <p>AutoJack и LimoLady представляют одежду нового поколения, которая не только поможет в создании
+                    стильного образа, но и обеспечит непревзойденный комфорт в любых условиях.</p>
+                </div>
+              </div>
+            </div>
+            <div class="navigation_column navigation_column__w22">
+              <div class="navigation_column_item">
+                <div class="navigation_column_item_title">
+                  <h3>Информация</h3>
+                </div>
+                <div class="navigation_column_item_text">
+                  <ul class="list__half list__links">
+                    <li><a href="#">Оплата</a></li>
+                    <li><a href="#">Доставка</a></li>
+                    <li><a href="#">Технологии</a></li>
+                    <li><a href="#">О компании</a></li>
+                    <li><a href="#">Распродажа</a></li>
+                    <li><a href="#">Новости</a></li>
+                    <li><a href="#">Дилерам</a></li>
+                    <li><a href="#">Контакты</a></li>
+                    <li><a href="#">Возврат товара</a></li>
+                    <li><a href="#">Как сделать заказ</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="navigation_column navigation_column__w19">
+              <div class="navigation_column_item">
+                <div class="navigation_column_item_title">
+                  <h3>Мужчинам</h3>
+                </div>
+                <div class="navigation_column_item_text">
+                  <ul class="list__half list__links">
+                    <li><a href="#">Зимние куртки</a></li>
+                    <li><a href="#">Осенние куртки</a></li>
+                    <li><a href="#">Ветровки</a></li>
+                    <li><a href="#">Толстовки</a></li>
+                    <li><a href="#">Брюки</a></li>
+                    <li><a href="#">Новости</a></li>
+                    <li><a href="#">Дилерам</a></li>
+                    <li><a href="#">Контакты</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="clearfix hidden-lg"></div>
+            <div class="navigation_column navigation_column__w15">
+              <div class="navigation_column_item">
+                <div class="navigation_column_item_title">
+                  <h3>Женщинам</h3>
+                </div>
+                <div class="navigation_column_item_text">
+                  <ul class="list__full list__links">
+                    <li><a href="#">Зимние куртки</a></li>
+                    <li><a href="#">Осенние куртки</a></li>
+                    <li><a href="#">Ветровки</a></li>
+                    <li><a href="#">Толстовки</a></li>
+                    <li><a href="#">Шапки</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="navigation_column navigation_column__w18">
+              <div class="navigation_column_item">
+                <div class="navigation_column_item_title">
+                  <h3>Центральный офис</h3>
+                </div>
+                <div class="navigation_column_item_text">
+                  <ul class="list__full list__contacts">
+                    <li>
+                      <div><i class="fas fa-phone"></i><span>+7 (812) 322 98 41</span></div>
+                    </li>
+                    <li>
+                      <div><i class="fas fa-clock"></i><span>Пн-Пт: 10:00 - 18:45 (по мск времени)</span></div>
+                    </li>
+                    <li>
+                      <div><i class="fas fa-home"></i><span>Санкт-Петербург, 194223б ул. Курчатова, д.10, Завод
+                          "Рекорд"</span></div>
+                    </li>
+                    <li>
+                      <ul class="list__social">
+                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                        <li><a href="#"><i class="fab fa-odnoklassniki"></i></a></li>
+                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container-fluid copyright">
+          <div class="container">
+            <div class="row">
+              <div class="col-xs-12 col-sm-8 copyright_brand"><span class="copyright_brand_title">@ AutoJack&limolady
+                  2018.</span><span>Все права защищены.</span></div>
+              <div class="col-xs-12 col-sm-4 copyright_developer"><a href="#"><span>Разработано в</span><i
+                    class="copyright_developer_logo"></i></a></div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <div class="autojack">
+    <div class="modal fade login" tabindex="-1" role="dialog">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <button class="login__close" type="button" data-dismiss="modal" aria-label="Close">&times;</button>
+          <div class="login__row">
+            <div class="login__column">
+              <div class="login__image" style="background-image: url(img/img.jpg)">
+                <div class="login__logo"></div>
+              </div>
+            </div>
+            <div class="login__column">
+              <div class="login__content">
+                <div class="login__text">
+                  <h2 class="login__title">Войти в личный кабинет</h2>
+                  <p class="login__description">Авторизуйтесь, используя свой e-mail и пароль.</p>
+                </div>
+                <form class="login__form" action="#">
+                  <div class="login__field">
+                    <label class="login__label" for="label1">E-mail</label>
+                    <input class="login__input" type="text" name="login__email" placeholder="Введите e-mail"
+                      id="label1">
+                  </div>
+                  <div class="login__field">
+                    <label class="login__label" for="label2">Пароль</label>
+                    <input class="login__input" type="password" name="login__password" placeholder="Введите пароль"
+                      id="label2">
+                  </div>
+                  <div class="login__forgotten"><a class="login__link" href="#">Забыли пароль?</a></div>
+                  <div class="login__field">
+                    <input class="login__submit" type="submit" value="Войти">
+                  </div>
+                </form>
+                <div class="login__signup">
+                  <p class="login__description"><span>У Вас еще нет учетной записи? </span><a class="login__link"
+                      href="#">Создать</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="js/slideout.js"></script>
+  <script src="js/jquery.validate.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,265 @@
+
+@media (min-width: 320px) {
+    .autojack footer .advantages {
+      padding-left: 15px;
+      padding-right: 15px; }
+      .autojack footer .advantages .row {
+        margin-left: -15px;
+        margin-right: -15px; }
+        .autojack footer .advantages .row_item {
+          padding-left: 15px;
+          padding-right: 15px; }
+    .autojack footer .navigation_column {
+      padding-left: 15px;
+      padding-right: 15px; }
+      .autojack footer .navigation_column__w26, .autojack footer .navigation_column__w22, .autojack footer .navigation_column__w19, .autojack footer .navigation_column__w15, .autojack footer .navigation_column__w18 {
+        width: 100%; }
+      .autojack footer .navigation_column_item_text p {
+        padding-right: 0px; }
+    .autojack footer .copyright_brand {
+      margin-bottom: 10px;
+      text-align: center; }
+    .autojack footer .copyright_developer {
+      text-align: center; } }
+  
+  @media (min-width: 540px) {
+    .autojack footer .navigation_column__w15 {
+      width: 40%; }
+    .autojack footer .navigation_column__w18 {
+      width: 60%; } }
+  
+  @media (min-width: 630px) {
+    .autojack footer .navigation_column__w22 {
+      width: 50%; }
+    .autojack footer .navigation_column__w19 {
+      width: 50%; }
+    .autojack footer .navigation_column__w15 {
+      width: 23%; }
+    .autojack footer .navigation_column__w18 {
+      width: 77%; } }
+  
+  @media (min-width: 768px) {
+    .autojack footer .copyright_brand {
+      text-align: left;
+      margin-bottom: 0px; }
+    .autojack footer .copyright_developer {
+      text-align: right; } }
+  
+  @media (min-width: 1200px) {
+    .autojack footer .advantages {
+      padding-left: 0px;
+      padding-right: 0px; }
+      .autojack footer .advantages .row {
+        margin-left: -50px;
+        margin-right: -50px; }
+      .autojack footer .advantages_item {
+        padding-left: 50px;
+        padding-right: 50px;
+        border-right: 1px solid #e6e5e5; }
+        .autojack footer .advantages_item:last-child {
+          border: none; }
+    .autojack footer .navigation_column {
+      padding-left: 0;
+      padding-right: 0; }
+      .autojack footer .navigation_column__w26 {
+        width: 50%; }
+      .autojack footer .navigation_column__w22 {
+        width: 43%; }
+      .autojack footer .navigation_column__w19 {
+        width: 50%; }
+      .autojack footer .navigation_column__w15 {
+        width: 20%; }
+      .autojack footer .navigation_column__w18 {
+        width: 30%; }
+      .autojack footer .navigation_column_item_text p {
+        padding-right: 10%; } }
+  
+  @media (min-width: 1600px) {
+    .autojack footer .navigation_column__w26 {
+      width: 26%; }
+    .autojack footer .navigation_column__w22 {
+      width: 22%; }
+    .autojack footer .navigation_column__w19 {
+      width: 19%; }
+    .autojack footer .navigation_column__w15 {
+      width: 15%; }
+    .autojack footer .navigation_column__w18 {
+      width: 18%; }
+    .autojack footer .navigation_column_item_text p {
+      padding-right: 30%; } }
+  
+  .autojack footer {
+    font-size: 12px;
+    background-color: #fafafa; }
+    .autojack footer .advantages {
+      overflow: hidden;
+      border-bottom: 1px solid #e6e5e5; }
+      .autojack footer .advantages_item {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-wrap: wrap;
+                flex-wrap: wrap;
+        margin-top: 44px;
+        margin-bottom: 30px; }
+        .autojack footer .advantages_item_image {
+          width: 50px;
+          margin-right: 20px; }
+          .autojack footer .advantages_item_image_icon {
+            display: block;
+            width: 100%;
+            background-size: contain;
+            background-position: center center;
+            background-color: transparent;
+            background-repeat: no-repeat; }
+            .autojack footer .advantages_item_image_icon:before {
+              content: '';
+              display: block;
+              padding-bottom: 100%; }
+            .autojack footer .advantages_item_image_icon__climate {
+              background-image: url(../img/icon_thermometer.png); }
+            .autojack footer .advantages_item_image_icon__maker {
+              background-image: url(../img/icon_jacket.png); }
+            .autojack footer .advantages_item_image_icon__service {
+              background-image: url(../img/icon_check.png); }
+        .autojack footer .advantages_item_text {
+          -webkit-box-flex: 1;
+          -webkit-flex-grow: 1;
+                  flex-grow: 1;
+          -webkit-flex-basis: 0;
+                  flex-basis: 0;
+          font-weight: 500; }
+          .autojack footer .advantages_item_text h3 {
+            font-weight: inherit;
+            font-size: 18px;
+            color: black;
+            text-transform: uppercase;
+            margin: 0px 0px 5px; }
+          .autojack footer .advantages_item_text p {
+            margin-bottom: 8px; }
+          .autojack footer .advantages_item_text a {
+            position: relative;
+            display: inline-block;
+            margin-right: 21px;
+            padding-right: 12px;
+            color: #32b1d6;
+            text-decoration: underline; }
+            .autojack footer .advantages_item_text a:after {
+              content: '»';
+              display: block;
+              position: absolute;
+              top: 0px;
+              bottom: 0px;
+              right: 0px; }
+    .autojack footer .navigation {
+      padding-top: 24px;
+      padding-bottom: 45px;
+      font-weight: 500; }
+      .autojack footer .navigation_column {
+        float: left; }
+        .autojack footer .navigation_column_item_title {
+          position: relative;
+          width: 100%;
+          height: 50px;
+          margin-bottom: 20px; }
+          .autojack footer .navigation_column_item_title img {
+            height: 100%; }
+          .autojack footer .navigation_column_item_title h3 {
+            font-weight: 600;
+            font-size: 18px;
+            color: black;
+            position: absolute;
+            bottom: 0px;
+            margin: 0px;
+            text-transform: uppercase; }
+        .autojack footer .navigation_column_item_text {
+          color: #6e6e6e; }
+          .autojack footer .navigation_column_item_text:before {
+            content: '';
+            display: table; }
+          .autojack footer .navigation_column_item_text:after {
+            content: '';
+            display: table;
+            clear: both; }
+          .autojack footer .navigation_column_item_text p {
+            font-size: 14px;
+            line-height: 24px; }
+          .autojack footer .navigation_column_item_text ul {
+            display: block;
+            margin: 0px;
+            padding-left: 0px; }
+            .autojack footer .navigation_column_item_text ul:before {
+              content: '';
+              display: table; }
+            .autojack footer .navigation_column_item_text ul:after {
+              content: '';
+              display: table;
+              clear: both; }
+            .autojack footer .navigation_column_item_text ul.list__full li {
+              width: 100%; }
+            .autojack footer .navigation_column_item_text ul.list__half li {
+              width: 50%; }
+            .autojack footer .navigation_column_item_text ul li {
+              list-style-type: none;
+              position: relative;
+              display: block;
+              float: left;
+              margin-bottom: 12px;
+              padding-left: 8px; }
+              .autojack footer .navigation_column_item_text ul li a {
+                color: inherit; }
+              .autojack footer .navigation_column_item_text ul li:last-child {
+                margin-bottom: 0px; }
+            .autojack footer .navigation_column_item_text ul.list__links li:before {
+              content: '›';
+              position: absolute;
+              left: 0;
+              color: #3abce2; }
+            .autojack footer .navigation_column_item_text ul.list__contacts li div {
+              cursor: default; }
+            .autojack footer .navigation_column_item_text ul.list__contacts li div, .autojack footer .navigation_column_item_text ul.list__contacts li a {
+              position: relative; }
+              .autojack footer .navigation_column_item_text ul.list__contacts li div i, .autojack footer .navigation_column_item_text ul.list__contacts li a i {
+                position: absolute;
+                left: 0px;
+                top: 2px;
+                color: #3abce2; }
+              .autojack footer .navigation_column_item_text ul.list__contacts li div span, .autojack footer .navigation_column_item_text ul.list__contacts li a span {
+                display: block;
+                padding-left: 20px; }
+            .autojack footer .navigation_column_item_text ul.list__contacts li ul.list__social {
+              font-size: 1.5em; }
+              .autojack footer .navigation_column_item_text ul.list__contacts li ul.list__social li {
+                display: inline-block;
+                width: auto;
+                padding: 0; }
+                .autojack footer .navigation_column_item_text ul.list__contacts li ul.list__social li a {
+                  margin-right: 15px; }
+                  .autojack footer .navigation_column_item_text ul.list__contacts li ul.list__social li a i {
+                    position: relative; }
+    .autojack footer .copyright {
+      padding: 22px 0px;
+      background-color: #3abce2;
+      color: white; }
+      .autojack footer .copyright_brand span {
+        display: inline-block; }
+      .autojack footer .copyright_brand_title {
+        text-transform: uppercase; }
+      .autojack footer .copyright_developer a {
+        color: inherit;
+        text-decoration: none; }
+        .autojack footer .copyright_developer a span {
+          display: inline-block;
+          margin-top: 2px;
+          padding-right: 3px; }
+      .autojack footer .copyright_developer_logo {
+        display: inline-block;
+        width: 67px;
+        height: 20px;
+        background-image: url(../img/developer.png);
+        background-size: contain;
+        background-position: center center;
+        background-color: transparent;
+        background-repeat: no-repeat;
+        vertical-align: top; }
+  

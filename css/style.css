@@ -1,0 +1,22 @@
+@import url(../css/header.css);
+@import url(../css/news.css);
+@import url(../css/mailing.css);
+@import url(../css/footer.css);
+@import url(../css/login.css);
+
+* {
+    outline: none !important;
+}
+
+a:link,
+a:hover {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.autojack header .navigation--padding {
+    padding: 0 15px;
+}

@@ -1,0 +1,368 @@
+@media (min-width: 1600px) {
+    .autojack .container {
+      width: 1570px; } }
+  
+  body {
+    font-family: 'Montserrat', sans-serif; }
+@media (min-width: 320px) {
+    .slideout-menu {
+      width: 250px;
+      -webkit-transform: translateX(-320px);
+              transform: translateX(-320px);
+      position: fixed;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0; } }
+  
+  @media (min-width: 992px) {
+    .slideout-menu {
+      width: 100%;
+      -webkit-transform: translateX(0px);
+              transform: translateX(0px);
+      position: static;
+      top: auto;
+      right: auto;
+      bottom: auto;
+      left: auto; } }
+  
+  .slideout-menu {
+    -webkit-overflow-scrolling: touch;
+    -webkit-transition-duration: 0.3s;
+            transition-duration: 0.3s; }
+  
+  .slideout-panel {
+    -webkit-transition-duration: 0.3s;
+            transition-duration: 0.3s;
+    z-index: 1;
+    will-change: transform; }
+  
+  .slideout-open,
+  .slideout-open body,
+  .slideout-open .slideout-panel {
+    overflow: hidden; }
+  
+  .slideout-open .slideout-menu {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px); }
+  
+  @media (max-width: 991px) {
+    .autojack .container {
+      width: 100%; } }
+@media (min-width: 320px) {
+    .autojack .navbar {
+      display: block; }
+      .autojack .navbar .navbar-header {
+        float: none; }
+        .autojack .navbar .navbar-header .navbar-toggle {
+          display: block; }
+    .autojack header {
+      padding-top: 50px;
+      padding-left: 15px;
+      padding-right: 15px;
+      background-color: whitesmoke;
+      overflow-y: scroll;
+      -ms-overflow-style: none; }
+      .autojack header::-webkit-scrollbar {
+        width: 0; }
+      .autojack header .user {
+        text-align: left; }
+        .autojack header .user ul {
+          text-align: center; }
+          .autojack header .user ul li {
+            margin-right: 20px;
+            font-size: 12px; }
+            .autojack header .user ul li:first-child {
+              width: 100%;
+              margin-right: 0px; }
+            .autojack header .user ul li form {
+              width: 100%;
+              margin-bottom: 24px; }
+            .autojack header .user ul li a span {
+              display: none; }
+      .autojack header .navigation_logo {
+        width: 100%; }
+        .autojack header .navigation_logo_image {
+          background-position: left center; }
+      .autojack header .navigation_links {
+        width: 100%; }
+        .autojack header .navigation_links ul:not(.dropdown-menu) {
+          padding: 20px 0;
+          text-align: left; }
+          .autojack header .navigation_links ul:not(.dropdown-menu) .navigation_links_item {
+            display: block;
+            margin-left: 0;
+            margin-bottom: 8px; }
+            .autojack header .navigation_links ul:not(.dropdown-menu) .navigation_links_item .dropdown-menu {
+              position: relative;
+              background-color: transparent;
+              border: none; }
+              .autojack header .navigation_links ul:not(.dropdown-menu) .navigation_links_item .dropdown-menu li {
+                margin: 0; } }
+  
+  @media (min-width: 992px) {
+    .autojack .navbar {
+      display: none; }
+      .autojack .navbar .navbar-header {
+        float: left; }
+        .autojack .navbar .navbar-header .navbar-toggle {
+          display: none; }
+    .autojack header {
+      padding-top: 0px;
+      padding-left: 0;
+      padding-right: 0;
+      background-color: white;
+      overflow-y: visible;
+      position: relative;
+      height: auto;
+      background-color: white;
+      -webkit-transform: translateY(0px);
+              transform: translateY(0px); }
+      .autojack header .user {
+        text-align: center; }
+        .autojack header .user ul {
+          text-align: inherit; }
+          .autojack header .user ul li {
+            margin-right: 27px;
+            padding-bottom: 3px; }
+            .autojack header .user ul li:first-child {
+              width: auto;
+              margin-right: 30px; }
+            .autojack header .user ul li form {
+              width: 250px;
+              margin-bottom: 0px; }
+            .autojack header .user ul li a span {
+              display: inline-block; }
+      .autojack header .navigation_logo {
+        width: 25%; }
+        .autojack header .navigation_logo_image {
+          height: 55px; }
+      .autojack header .navigation_links {
+        width: 75%; }
+        .autojack header .navigation_links ul:not(.dropdown-menu) {
+          padding: 7px 0;
+          text-align: right; }
+          .autojack header .navigation_links ul:not(.dropdown-menu) .navigation_links_item {
+            display: inline-block;
+            margin-left: 48px;
+            margin-bottom: 0; }
+            .autojack header .navigation_links ul:not(.dropdown-menu) .navigation_links_item .dropdown-menu {
+              position: absolute;
+              left: 6px;
+              background-color: #fff;
+              border: 1px solid #8c8c8c; }
+              .autojack header .navigation_links ul:not(.dropdown-menu) .navigation_links_item .dropdown-menu li {
+                margin: 0; } }
+  
+  @media (min-width: 1200px) {
+    .autojack header .user {
+      text-align: right; }
+      .autojack header .user ul {
+        text-align: left; }
+        .autojack header .user ul li form {
+          width: 412px; }
+    .autojack header .navigation_logo {
+      width: 306px; }
+    .autojack header .navigation_links {
+      width: 66%; } }
+  
+  @media (min-width: 1600px) {
+    .autojack header .user {
+      text-align: right; }
+      .autojack header .user ul {
+        text-align: left; }
+        .autojack header .user ul li form {
+          width: 412px; }
+    .autojack header .navigation_links {
+      width: 75%; }
+      .autojack header .navigation_links ul:not(.dropdown-menu) {
+        padding: 18px 0px; } }
+  
+  .autojack header {
+    z-index: 100; }
+    .autojack header .user {
+      padding: 25px 0px 20px;
+      color: #333333; }
+      .autojack header .user ul {
+        list-style: none;
+        display: inline-block;
+        margin: 0px;
+        padding: 0px; }
+        .autojack header .user ul li {
+          display: inline-block;
+          vertical-align: middle; }
+          .autojack header .user ul li:last-child {
+            margin-right: 0px; }
+          .autojack header .user ul li form {
+            position: relative; }
+            .autojack header .user ul li form input[type="text"] {
+              -webkit-appearance: none;
+              display: inline-block;
+              width: 100%;
+              height: 42px;
+              margin: 0px;
+              padding: 10px 20px;
+              background-color: white;
+              border: 1px solid #ebebeb;
+              color: black;
+              outline: none; }
+              .autojack header .user ul li form input[type="text"]::-webkit-input-placeholder {
+                color: #333333; }
+              .autojack header .user ul li form input[type="text"]:-ms-input-placeholder {
+                color: #333333; }
+              .autojack header .user ul li form input[type="text"]::-ms-input-placeholder {
+                color: #333333; }
+              .autojack header .user ul li form input[type="text"]::placeholder {
+                color: #333333; }
+            .autojack header .user ul li form input[type="submit"] {
+              -webkit-appearance: none;
+              display: block;
+              position: absolute;
+              top: 10px;
+              right: 20px;
+              bottom: 10px;
+              width: 22px;
+              padding: 0px;
+              background-image: url(../img/icon_search.png);
+              background-size: contain;
+              background-position: center center;
+              background-color: transparent;
+              background-repeat: no-repeat;
+              border: none;
+              outline: none; }
+          .autojack header .user ul li a {
+            display: block;
+            position: relative;
+            margin-top: 3px;
+            color: inherit;
+            vertical-align: top;
+            text-decoration: none;
+            outline: none; }
+            .autojack header .user ul li a.user_city i {
+              background-image: url(../img/icon_worldwide.png); }
+            .autojack header .user ul li a.user_stores i {
+              background-image: url(../img/icon_location.png); }
+            .autojack header .user ul li a.user_cart i:not(.user_cart_counter) {
+              background-image: url(../img/icon_basket.png); }
+            .autojack header .user ul li a.user_cabinet i {
+              background-image: url(../img/icon_user.png); }
+            .autojack header .user ul li a i:not(.user_cart_counter) {
+              display: inline-block;
+              width: 26px;
+              height: 26px;
+              background-size: contain;
+              background-position: center center;
+              background-color: transparent;
+              background-repeat: no-repeat;
+              vertical-align: inherit; }
+            .autojack header .user ul li a i.user_cart_counter {
+              position: absolute;
+              top: -9px;
+              left: 14px;
+              padding: 2px 3px;
+              background-color: #de0023;
+              border-radius: 50%;
+              color: white;
+              font-size: 8px;
+              line-height: 8px;
+              font-style: normal;
+              font-weight: 600;
+              line-height: 10px; }
+            .autojack header .user ul li a span {
+              margin-left: 6px;
+              padding: 3px 0px;
+              vertical-align: inherit; }
+    .autojack header .navigation {
+      z-index: 50; }
+      .autojack header .navigation:before {
+        content: '';
+        display: table; }
+      .autojack header .navigation:after {
+        content: '';
+        display: table;
+        clear: both; }
+      .autojack header .navigation_logo {
+        float: left; }
+        .autojack header .navigation_logo_image {
+          height: 54px;
+          background-image: url(../img/logo.png);
+          background-size: contain;
+          background-position: left center;
+          background-color: transparent;
+          background-repeat: no-repeat; }
+        .autojack header .navigation_logo p {
+          text-align: center; }
+      .autojack header .navigation_links {
+        float: right; }
+        .autojack header .navigation_links ul:not(.dropdown-menu) {
+          list-style: none;
+          margin: 0px; }
+          .autojack header .navigation_links ul:not(.dropdown-menu) .navigation_links_item {
+            font-weight: 600;
+            font-size: 15px; }
+            .autojack header .navigation_links ul:not(.dropdown-menu) .navigation_links_item:first-child {
+              margin-left: 0px; }
+            .autojack header .navigation_links ul:not(.dropdown-menu) .navigation_links_item button {
+              -webkit-appearance: none;
+              padding: 7px 0;
+              background-color: transparent;
+              border: none;
+              text-transform: uppercase;
+              text-decoration: none;
+              outline: none; }
+              .autojack header .navigation_links ul:not(.dropdown-menu) .navigation_links_item button span {
+                position: relative; }
+                .autojack header .navigation_links ul:not(.dropdown-menu) .navigation_links_item button span:hover {
+                  text-decoration: none; }
+                  .autojack header .navigation_links ul:not(.dropdown-menu) .navigation_links_item button span:hover:before {
+                    content: '';
+                    position: absolute;
+                    left: 0px;
+                    right: 0px;
+                    bottom: -2px;
+                    height: 1px;
+                    background-color: black; }
+              .autojack header .navigation_links ul:not(.dropdown-menu) .navigation_links_item button i {
+                color: #bfbfbf; }
+            .autojack header .navigation_links ul:not(.dropdown-menu) .navigation_links_item a {
+              display: block;
+              padding: 6px 0;
+              color: inherit;
+              text-transform: uppercase; }
+              .autojack header .navigation_links ul:not(.dropdown-menu) .navigation_links_item a:hover {
+                text-decoration: none; }
+              .autojack header .navigation_links ul:not(.dropdown-menu) .navigation_links_item a span {
+                position: relative; }
+                .autojack header .navigation_links ul:not(.dropdown-menu) .navigation_links_item a span:hover:before {
+                  content: '';
+                  position: absolute;
+                  left: 0px;
+                  right: 0px;
+                  bottom: -2px;
+                  height: 1px;
+                  background-color: black; }
+            .autojack header .navigation_links ul:not(.dropdown-menu) .navigation_links_item .dropdown-menu {
+              box-shadow: none;
+              padding: 5px 10px;
+              border-radius: 0; }
+              .autojack header .navigation_links ul:not(.dropdown-menu) .navigation_links_item .dropdown-menu li.active {
+                text-decoration: underline; }
+              .autojack header .navigation_links ul:not(.dropdown-menu) .navigation_links_item .dropdown-menu li a {
+                text-transform: none;
+                font-weight: 500;
+                font-size: 13px; }
+                .autojack header .navigation_links ul:not(.dropdown-menu) .navigation_links_item .dropdown-menu li a:hover {
+                  text-decoration: underline; }
+  
+  .autojack .navbar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    border: none;
+    z-index: 200; }
+    .autojack .navbar .navbar-header {
+      background-color: black; }
+      .autojack .navbar .navbar-header .navbar-toggle .icon-bar {
+        background-color: white; }
+  

@@ -1,0 +1,109 @@
+@media (min-width: 320px) {
+    .autojack .mailing form .mailing_form {
+      display: block;
+      float: left; }
+      .autojack .mailing form .mailing_form__input, .autojack .mailing form .mailing_form__submit {
+        width: 100%;
+        padding: 0px 0px 10px; } }
+  
+  @media (min-width: 540px) {
+    .autojack .mailing form .mailing_form {
+      padding: 0px 6px 10px; }
+      .autojack .mailing form .mailing_form__input {
+        width: 60%; }
+      .autojack .mailing form .mailing_form__submit {
+        width: 40%; } }
+  
+  @media (min-width: 992px) {
+    .autojack .mailing form .mailing_form {
+      display: inline-block;
+      float: none; }
+      .autojack .mailing form .mailing_form__input {
+        width: 490px; }
+      .autojack .mailing form .mailing_form__submit {
+        width: 216px; } }
+  
+  .autojack .mailing {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-top: 3px solid #e6e5e5;
+    text-align: center; }
+    .autojack .mailing_text h2 {
+      margin-bottom: 18px;
+      font-weight: normal;
+      font-size: 40px; }
+    .autojack .mailing_text p {
+      color: #9e9e9e;
+      font-size: 24px; }
+    .autojack .mailing form {
+      margin-top: 36px;
+      margin-bottom: 22px; }
+      .autojack .mailing form:before {
+        content: '';
+        display: table; }
+      .autojack .mailing form:after {
+        content: '';
+        display: table;
+        clear: both; }
+      .autojack .mailing form .mailing_form input[type="text"] {
+        -webkit-appearance: none;
+        display: inline-block;
+        width: 100%;
+        margin: 0px;
+        padding: 12px 24px;
+        background-color: transparent;
+        border: 1px solid black;
+        color: black;
+        text-transform: none;
+        outline: none; }
+        .autojack .mailing form .mailing_form input[type="text"]::-webkit-input-placeholder {
+          color: #9e9e9e;
+          font-weight: normal; }
+        .autojack .mailing form .mailing_form input[type="text"]:-ms-input-placeholder {
+          color: #9e9e9e;
+          font-weight: normal; }
+        .autojack .mailing form .mailing_form input[type="text"]::-ms-input-placeholder {
+          color: #9e9e9e;
+          font-weight: normal; }
+        .autojack .mailing form .mailing_form input[type="text"]::placeholder {
+          color: #9e9e9e;
+          font-weight: normal; }
+      .autojack .mailing form .mailing_form input[type="submit"] {
+        -webkit-appearance: none;
+        display: inline-block;
+        width: 100%;
+        margin: 0px;
+        padding: 12px 24px;
+        background-color: black;
+        border: 1px solid black;
+        color: white;
+        text-transform: uppercase;
+        outline: none; }
+        .autojack .mailing form .mailing_form input[type="submit"]::-webkit-input-placeholder {
+          color: white;
+          font-weight: normal; }
+        .autojack .mailing form .mailing_form input[type="submit"]:-ms-input-placeholder {
+          color: white;
+          font-weight: normal; }
+        .autojack .mailing form .mailing_form input[type="submit"]::-ms-input-placeholder {
+          color: white;
+          font-weight: normal; }
+        .autojack .mailing form .mailing_form input[type="submit"]::placeholder {
+          color: white;
+          font-weight: normal; }
+    .autojack .mailing_disclaimer {
+      max-width: 640px;
+      display: inline-block; }
+      .autojack .mailing_disclaimer p {
+        color: #9e9e9e;
+        font-size: 13px; }
+        .autojack .mailing_disclaimer p a {
+          color: inherit;
+          text-decoration: underline; }
+
+@media (min-width: 992px) {
+    .autojack .mailing {
+        padding-top: 65px;
+        padding-bottom: 60px;
+    }
+}
